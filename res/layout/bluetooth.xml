@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     android:background="@drawable/bt1">
+
+    
+<TextView 
+    android:id="@+id/bluetoothstate" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:textColor="#F88017"
+    android:textSize="20dp"
+    android:textStyle="normal"
+    android:gravity="center_horizontal"/>
+
+
+
+<TextView 
+    android:id="@+id/bluetoothstate" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="fill_parent"
+    android:layout_height="70dp"
+    android:text="Disable Bluetooth"
+    android:textStyle="bold" 
+   />
+
+<TextView 
+    android:id="@+id/bluetoothstate" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+<TextView 
+    android:id="@+id/bluetoothstate" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" />
+
+
+<Button
+    android:id="@+id/scandevice" 
+    android:layout_width="fill_parent" 
+    android:layout_height="70dp"
+    android:text="Scan Bluetooth Devices" 
+    android:enabled="false"
+    android:textStyle="bold"/> 
+<ListView
+    android:id="@+id/devicesfound" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    /> 
+
+</LinearLayout>

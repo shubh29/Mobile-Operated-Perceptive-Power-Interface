@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/abstract123">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INTRODUCTION:The project “Mobile controlled perceptive power interface” as the name suggests is a project related with the perceptive controlling of electronic devices such as fluorescent light and electric fans with the help of a device,here mobile phone (smart phone) being used as the perceptive controller.The whole system basically works by controlling the electronic devices with the help of an interactive and user friendly Android application.The user interacts with the android application and can control the devices with the help of it.The Android application provides not just the interactive interface but also it will send a signal from the perceptive controller with the help of Bluetooth/Wi-Fi to the Micro controller or the Arduino board which will then control the devices accordingly. "
+                android:textColor="#ffff00"
+                
+                                android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        </LinearLayout>
+        
+    </ScrollView>
+
+   
+
+</LinearLayout>
